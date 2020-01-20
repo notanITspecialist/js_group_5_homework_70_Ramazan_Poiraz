@@ -10,7 +10,6 @@ const FilmInfo = props => {
 
     const request = async () => {
         const data = await axios.get('http://api.tvmaze.com/search/shows?q=' + props.match.params.name);
-        console.log(data.data[0].show)
         setFilmInfo(data.data[0].show)
     };
 
