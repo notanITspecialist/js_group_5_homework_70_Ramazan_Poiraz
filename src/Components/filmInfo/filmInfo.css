@@ -1,0 +1,17 @@
+.film-block {
+    display: flex;
+}
+
+.film-info {
+    padding: 5px;
+}
+
+.film-text {
+    line-height: 25px;
+    width: 40%;
+}
+
+.film-img img{
+    margin-right: 20px;
+    height: 400px;
+}
